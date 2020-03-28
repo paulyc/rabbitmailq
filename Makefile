@@ -4,7 +4,10 @@ node_modules: package.json
 install:
 	npm install -g
 
-test: node_modules test.js
+run: index.js
+	node index.js
+
+test: test.js
 	node test.js
 
-.PHONY: install test
+.PHONY: install test run
