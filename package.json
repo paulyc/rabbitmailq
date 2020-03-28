@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmailq",
+  "version": "1.0.0",
+  "description": "fetch/push mail from rabbitmq",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulyc/rabbitmailq.git"
+  },
+  "author": "paulyc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulyc/rabbitmailq/issues"
+  },
+  "homepage": "https://github.com/paulyc/rabbitmailq#readme",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.5.5"
+  }
+}
