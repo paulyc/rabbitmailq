@@ -1,3 +1,5 @@
+_: run
+
 node_modules: package.json
 	npm install
 
@@ -10,4 +12,3 @@ run: index.js
 test: test.js
 	node test.js
 
-.PHONY: install test run
