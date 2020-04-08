@@ -42,7 +42,7 @@ const main = async () => {
 	console.log(msgs.length);
 	//const uniq = `import-${new Date().valueOf()}`;
 	for (const m of msgs) {
-		fs.writeFileSync(`${process.env.HOME}/Maildir/new/rabbitmsg-${m.fields.deliveryTag}`, m.content.toString());
+		fs.writeFileSync(`Maildir/new/rabbitmsg-${m.fields.deliveryTag}`, m.content.toString());
 	}
 };
 
